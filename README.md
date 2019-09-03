@@ -16,5 +16,6 @@ Qué carácteristicas tiene la nueva versión:
 - Saas como Preprocesador
 - Opmización de la carga de imagenes 
 - Critical CSS
+- Templates con PHP
 
 Bueno me parece que es un buen modo de iniciar. 
