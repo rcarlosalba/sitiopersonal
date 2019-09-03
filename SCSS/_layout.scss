@@ -9,6 +9,10 @@
     background: $blanco_fondo;
     border-bottom: 1px solid $gris_bordes;
 }
+.main--column{
+    width: 80%;
+    margin: 0 auto;
+}
 .grid{
     display: grid;
     grid-gap: 8px;

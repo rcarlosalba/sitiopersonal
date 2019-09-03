@@ -1,4 +1,4 @@
-<header class="flex--between main--menu">
+<header class="flex--between main--menu main--column">
     <figure>
         <a href="#"><img class="logo" src="./img/logo_carlosalba.png" alt="Carlos Alba | Front End Developer Junior"></a>
     </figure>

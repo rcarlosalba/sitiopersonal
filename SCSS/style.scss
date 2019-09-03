@@ -2,9 +2,9 @@
 @import '_variablesColor';
 @import '_textos.scss';
 @import '_imagenes';
-@import 'layout';
-@import 'aligns';
-@import 'footer';
+@import '_layout';
+@import '_aligns';
+@import '_footer';
 
 .navigation ul{
     display: none;

@@ -1,11 +1,12 @@
-@import 'variablesColores';
-@import 'aligns';
+@import '_variablesColor';
+@import '_aligns';
 
 footer{
     width: 80%;
     height: 60px;
     bottom: 0;
     text-align: center;
+    margin: 0 auto;
 }
 footer ul{
     display: block;
@@ -18,7 +19,7 @@ footer ul li{
     background: $blanco_fondo;
 }
 footer ul li a{
-    @extend flex-center;
+    @extend .flex--center;
     height: 24px;
     width: 24px;
 }
