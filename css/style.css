@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #737373; }
+
+.logo {
+  height: 50px;
+  width: auto; }
+
+.titles {
+  font-weight: 700;
+  margin: 8px; }
+
+.titleH1 {
+  font-size: 32px; }
+
+.titleH2 {
+  font-size: 20px; }
+
+.titleH3 {
+  font-size: 16px; }
+
+.text-decoration {
+  text-decoration: none;
+  cursor: pointer; }
+
+.list-style {
+  list-style: none;
+  margin-left: 4px; }
+
+/*# sourceMappingURL=style.css.map */

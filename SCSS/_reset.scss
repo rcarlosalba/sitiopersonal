@@ -1,7 +1,9 @@
+@import '_variablesColor';
 *{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
     font-size: 14px;
+    color: $gris_textos;
 }
