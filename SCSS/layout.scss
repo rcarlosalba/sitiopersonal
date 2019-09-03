@@ -1,0 +1,38 @@
+@import '_variablesColor';
+.main--menu{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $blanco_fondo;
+    border-bottom: 1px solid $gris_bordes;
+}
+.grid{
+    display: grid;
+    grid-gap: 8px;
+}
+.una--columna{
+    @extend .grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "uno"
+                         "dos"
+                         "tres"
+                         "cuatro"
+                         "cinco"
+                         "seis"
+}
+.dos--columnas{
+    @extend .grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "uno dos"
+                         "tres cuatro"
+                         "cinco seis";
+}
+.tres--columnas{
+    @extend .grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-areas: "uno dos tres"
+                         "cuatro cinco seis";
+}

@@ -1,0 +1,24 @@
+@import 'variablesColores';
+@import 'aligns';
+
+footer{
+    width: 80%;
+    height: 60px;
+    bottom: 0;
+    text-align: center;
+}
+footer ul{
+    display: block;
+}
+footer ul li{
+    display: inline-block;
+    margin: 8px;
+    padding: 4px; 
+    border-radius: 50%;
+    background: $blanco_fondo;
+}
+footer ul li a{
+    @extend flex-center;
+    height: 24px;
+    width: 24px;
+}

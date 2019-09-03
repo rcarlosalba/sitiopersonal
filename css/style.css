@@ -6,10 +6,6 @@
   font-size: 14px;
   color: #737373; }
 
-.logo {
-  height: 50px;
-  width: auto; }
-
 .titles {
   font-weight: 700;
   margin: 8px; }
@@ -23,12 +19,110 @@
 .titleH3 {
   font-size: 16px; }
 
-.text-decoration {
+.text--decoration {
   text-decoration: none;
   cursor: pointer; }
 
-.list-style {
+.list--style {
   list-style: none;
   margin-left: 4px; }
+
+.list--item__menu {
+  margin: 8px;
+  text-align: right; }
+
+.list--item__menu:hover a {
+  font-weight: 700;
+  border-bottom: 2px dashed #bfbfbf; }
+
+.list--item__content {
+  margin: 4px 0; }
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 8px; }
+
+.menu__img {
+  width: 32px;
+  height: auto;
+  cursor: pointer;
+  position: fixed;
+  right: 24px;
+  top: 24px; }
+
+.img--content, .parallax {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax {
+  background-attachment: fixed; }
+
+.main--menu {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  border-bottom: 1px solid #bfbfbf; }
+
+.grid, .una--columna, .dos--columnas, .tres--columnas {
+  display: grid;
+  grid-gap: 8px; }
+
+.una--columna {
+  grid-template-columns: 1fr;
+  grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; }
+
+.dos--columnas {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "uno dos" "tres cuatro" "cinco seis"; }
+
+.tres--columnas {
+  grid-template-columns: repeat(3, fr);
+  grid-template-areas: "uno dos tres" "cuatro cinco seis"; }
+
+footer {
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  text-align: center; }
+
+.flex--center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex--left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.flex--right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.flex--between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.flex--around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.navigation ul {
+  display: none;
+  width: 100px;
+  margin: 230px 24px 8px 8px;
+  background: #FFF; }
+
+.navigation:hover ul, ul:hover {
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */

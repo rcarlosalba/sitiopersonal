@@ -1,5 +1,22 @@
 .logo{
     height: 50px;
     width: auto;
-    margin: 8px;
+    margin: 12px;
+}
+.menu__img{
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+    position: fixed;
+    right: 24px;
+    top: 24px;
+}
+.img--content{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax{
+    @extend .img--content;
+    background-attachment: fixed;
 }

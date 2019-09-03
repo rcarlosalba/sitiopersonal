@@ -13,11 +13,22 @@
 .titleH3{
     font-size: 16px;
 }
-.text-decoration{
+.text--decoration{
     text-decoration: none;
     cursor: pointer;
 }
-.list-style{
+.list--style{
     list-style: none;
     margin-left: 4px;
+}
+.list--item__menu{
+    margin: 8px;
+    text-align: right;
+}
+.list--item__menu:hover a{
+    font-weight: 700;
+    border-bottom: 2px dashed $gris_bordes;
+}
+.list--item__content{
+    margin: 4px 0;
 }
