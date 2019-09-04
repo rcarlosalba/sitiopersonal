@@ -6,6 +6,31 @@
   font-size: 14px;
   color: #737373; }
 
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 12px; }
+
+.menu__img {
+  width: 32px;
+  height: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 24px;
+  right: 11%; }
+
+.img--content, .parallax {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax {
+  background-attachment: fixed; }
+
+.img--grid {
+  width: 280px;
+  height: 200px; }
+
 .main--column {
   width: 80%;
   height: 100%;
@@ -14,7 +39,8 @@
 .grid, .una--columna, .dos--columnas, .tres--columnas {
   display: grid;
   grid-gap: 8px;
-  margin-top: 16px; }
+  margin-top: 16px;
+  text-align: center; }
 
 .top--container, .showcase--container {
   margin-top: 75px; }
@@ -28,8 +54,7 @@
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid #bfbfbf;
   height: auto;
-  padding: 12px;
-  text-align: center; }
+  padding: 12px; }
 
 .una--columna {
   grid-template-columns: 1fr;
@@ -43,6 +68,22 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "uno dos tres" "cuatro cinco seis"; }
 
+@media screen and (max-width: 780px) {
+  .dos--columnas {
+    grid-template-columns: 1fr;
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; } }
+@media screen and (max-width: 1060px) {
+  .tres--columnas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "uno dos" "tres cuatro" "cinco seis"; } }
+@media screen and (max-width: 730px) {
+  .tres--columnas {
+    grid-template-columns: 1fr;
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; }
+
+  .img--grid {
+    width: 240px;
+    height: 160px; } }
 .uno {
   grid-area: uno; }
 
@@ -82,7 +123,8 @@
 
 .titles {
   font-weight: 700;
-  margin: 8px; }
+  margin: 8px;
+  text-align: center; }
 
 .titleH1 {
   font-size: 32px; }
@@ -111,27 +153,6 @@
 
 .list--item__content {
   margin: 4px 0; }
-
-.logo {
-  height: 50px;
-  width: auto;
-  margin: 12px; }
-
-.menu__img {
-  width: 32px;
-  height: auto;
-  cursor: pointer;
-  position: fixed;
-  top: 24px;
-  right: 11%; }
-
-.img--content, .parallax {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.parallax {
-  background-attachment: fixed; }
 
 .flex--center, footer ul li a {
   display: flex;
