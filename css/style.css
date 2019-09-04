@@ -6,6 +6,80 @@
   font-size: 14px;
   color: #737373; }
 
+.main--column {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto; }
+
+.grid, .una--columna, .dos--columnas, .tres--columnas {
+  display: grid;
+  grid-gap: 8px;
+  margin-top: 16px; }
+
+.top--container, .showcase--container {
+  margin-top: 75px; }
+
+.showcase--container {
+  width: 100%;
+  height: 60vh;
+  background: url(../img/background.jpg); }
+
+.title--container {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #bfbfbf;
+  height: auto;
+  padding: 12px;
+  text-align: center; }
+
+.una--columna {
+  grid-template-columns: 1fr;
+  grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; }
+
+.dos--columnas {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "uno dos" "tres cuatro" "cinco seis"; }
+
+.tres--columnas {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "uno dos tres" "cuatro cinco seis"; }
+
+.uno {
+  grid-area: uno; }
+
+.dos {
+  grid-area: dos; }
+
+.tres {
+  grid-area: tres; }
+
+.cuatro {
+  grid-area: cuatro; }
+
+.cinco {
+  grid-area: cinco; }
+
+.seis {
+  grid-area: seis; }
+
+.main--menu {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  border-bottom: 1px solid #bfbfbf; }
+
+.navigation ul {
+  display: none;
+  width: 100px;
+  margin: 230px 24px 8px 8px;
+  background: #FFF; }
+
+.navigation:hover ul, ul:hover {
+  display: block; }
+
 .titles {
   font-weight: 700;
   margin: 8px; }
@@ -19,7 +93,7 @@
 .titleH3 {
   font-size: 16px; }
 
-.text--decoration {
+.text--decoration, footer ul li a {
   text-decoration: none;
   cursor: pointer; }
 
@@ -48,8 +122,8 @@
   height: auto;
   cursor: pointer;
   position: fixed;
-  right: 24px;
-  top: 24px; }
+  top: 24px;
+  right: 11%; }
 
 .img--content, .parallax {
   background-position: center center;
@@ -59,84 +133,34 @@
 .parallax {
   background-attachment: fixed; }
 
-.main--menu {
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #FFF;
-  border-bottom: 1px solid #bfbfbf; }
+.flex--center, footer ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
-.main--column {
-  width: 80%;
-  margin: 0 auto; }
+.flex--left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
 
-.grid, .una--columna, .dos--columnas, .tres--columnas {
+.flex--right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.flex--between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.flex--around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.grid--center {
   display: grid;
-  grid-gap: 8px; }
-
-.una--columna {
-  grid-template-columns: 1fr;
-  grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; }
-
-.dos--columnas {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "uno dos" "tres cuatro" "cinco seis"; }
-
-.tres--columnas {
-  grid-template-columns: repeat(3, fr);
-  grid-template-areas: "uno dos tres" "cuatro cinco seis"; }
-
-.flex--center, footer ul li a {
-  display: flex;
   justify-content: center;
-  align-items: center; }
-
-.flex--left {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; }
-
-.flex--right {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; }
-
-.flex--between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.flex--around {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.flex--center, footer ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.flex--left {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; }
-
-.flex--right {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; }
-
-.flex--between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.flex--around {
-  display: flex;
-  justify-content: space-around;
   align-items: center; }
 
 footer {
@@ -153,20 +177,17 @@ footer ul li {
   display: inline-block;
   margin: 8px;
   padding: 4px;
-  border-radius: 50%;
   background: #FFF; }
 
 footer ul li a {
+  border-radius: 50%;
   height: 24px;
   width: 24px; }
 
-.navigation ul {
-  display: none;
-  width: 100px;
-  margin: 230px 24px 8px 8px;
-  background: #FFF; }
+footer ul li a:hover {
+  background: #4d4d4d; }
 
-.navigation:hover ul, ul:hover {
-  display: block; }
+footer ul li a:hover i {
+  color: #FFF; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,3 @@
-@import '_variablesColor';
-@import '_aligns';
-
 footer{
     width: 80%;
     height: 60px;
@@ -15,11 +12,18 @@ footer ul li{
     display: inline-block;
     margin: 8px;
     padding: 4px; 
-    border-radius: 50%;
     background: $blanco_fondo;
 }
 footer ul li a{
     @extend .flex--center;
+    @extend .text--decoration;
+    border-radius: 50%;
     height: 24px;
     width: 24px;
+}
+footer ul li a:hover{
+    background: $gris_titulos; 
+}
+footer ul li a:hover i{
+    color: $blanco_fondo;
 }

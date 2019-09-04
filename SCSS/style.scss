@@ -1,17 +1,8 @@
 @import '_reset';
-@import '_variablesColor';
+@import '_variables--color';
+@import '_layout';
+@import '_menu';
 @import '_textos.scss';
 @import '_imagenes';
-@import '_layout';
 @import '_aligns';
 @import '_footer';
-
-.navigation ul{
-    display: none;
-    width: 100px;
-    margin: 230px 24px 8px 8px;
-    background: $blanco_fondo;
-}
-.navigation:hover ul, ul:hover{
-    display: block;
-}
