@@ -16,9 +16,21 @@
     text-decoration: none;
     cursor: pointer;
 }
+.text--left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text--right{
+    text-align: right;
+}
+.text--justify{
+    text-align: justify;
+}
 .list--style{
     list-style: none;
-    margin-left: 4px;
+    margin-left: 6px;
 }
 .list--item__menu{
     margin: 8px;
@@ -30,4 +42,9 @@
 }
 .list--item__content{
     margin: 4px 0;
+}
+.text--description{
+    width: 70%;
+    line-height: 18px;
+    margin: 4px ;
 }

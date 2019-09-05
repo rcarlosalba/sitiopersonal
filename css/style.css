@@ -39,8 +39,7 @@
 .grid, .una--columna, .dos--columnas, .tres--columnas {
   display: grid;
   grid-gap: 8px;
-  margin-top: 16px;
-  text-align: center; }
+  margin-top: 16px; }
 
 .top--container, .showcase--container {
   margin-top: 75px; }
@@ -51,7 +50,7 @@
   background: url(../img/background.jpg); }
 
 .title--container {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid #bfbfbf;
   height: auto;
   padding: 12px; }
@@ -118,6 +117,9 @@
   margin: 230px 24px 8px 8px;
   background: #FFF; }
 
+.navigation ul li:last-child {
+  padding-bottom: 8px; }
+
 .navigation:hover ul, ul:hover {
   display: block; }
 
@@ -139,9 +141,21 @@
   text-decoration: none;
   cursor: pointer; }
 
+.text--left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text--right {
+  text-align: right; }
+
+.text--justify {
+  text-align: justify; }
+
 .list--style {
   list-style: none;
-  margin-left: 4px; }
+  margin-left: 6px; }
 
 .list--item__menu {
   margin: 8px;
@@ -153,6 +167,11 @@
 
 .list--item__content {
   margin: 4px 0; }
+
+.text--description {
+  width: 70%;
+  line-height: 18px;
+  margin: 4px; }
 
 .flex--center, footer ul li a {
   display: flex;
