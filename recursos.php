@@ -3,25 +3,25 @@
     <?php include('menu.php');?>
     <div class="grid main--column top--container">
         <div class="tres--columnas">
-            <div class="uno">
+            <div class="uno grid--center">
                 <a class="text--decoration" href="#">
                 <h2 class="title titleH2">Handbook HTML</h2>
                 <p class="text--description">Original de Flavio Copes y traducido por Carlos Alba.</p>
-                <img src="./img/finanzas.jpg" alt="Handbook HTML">
+                <img class="img--grid" src="./img/finanzas.jpg" alt="Handbook HTML">
                 </a>
             </div>
-            <div class="dos">
+            <div class="dos grid--center">
                 <a class="text--decoration" href="#">
                 <h2 class="title titleH2">Gulp para Front End</h2>
                 <p class="text--description">Cómo automatizar el flujo de trabajo Front End.</p>
-                <img src="./img/gulp.jpg" alt="Tutorial Gulp">
+                <img class="img--grid" src="./img/gulp.jpg" alt="Tutorial Gulp">
                 </a>
             </div>
-            <div class="tres">
+            <div class="tres grid--center">
                 <a class="text--decoration" href="#">
                 <h2 class="title titleH2">Grunt para automatizar</h2>
                 <p class="text--description">Grunt como herramienta para automatizar el flujo de trabajo Front End - Publicado en Platzi.</p>
-                <img src="./img/grunt.jpg" alt="Tutorial Grunt">
+                <img  class="img--grid"src="./img/grunt.jpg" alt="Tutorial Grunt">
                 </a>
             </div>
         </div>

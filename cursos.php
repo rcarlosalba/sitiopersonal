@@ -3,25 +3,25 @@
     <?php include('menu.php');?>
     <div class="grid main--column top--container">
         <div class="tres--columnas">
-            <div class="uno">
+            <div class="uno grid--center">
                 <a class="text--decoration" href="#">
                 <h2 class="title titleH2">Finanzas Personales</h2>
                 <p class="text--description">La ruta para obtener tu libertad financiera.</p>
-                <img src="./img/finanzas.jpg" alt="Curso de Finanzas Personales">
+                <img class="img--grid" src="./img/finanzas.jpg" alt="Curso de Finanzas Personales">
                 </a>
             </div>
-            <div class="dos">
+            <div class="dos grid--center">
                 <a class="text--decoration" href="#">
                 <h2 class="title titleH2">Diseño Web</h2>
                 <p class="text--description">Crea tu perfil profesional desde cero.</p>
-                <img src="./img/js.jpg" alt="Curso de Diseño Web">
+                <img class="img--grid" src="./img/js.jpg" alt="Curso de Diseño Web">
                 </a>
             </div>
-            <div class="tres">
+            <div class="tres grid--center">
                 <a class="text--decoration" href="#">
                 <h2 class="title titleH2">Fundamentos de Programación</h2>
                 <p class="text--description">Aprende las bases de la programación y domina cualquier lenguaje.</p>
-                <img src="./img/disenoweb.jpg" alt="Curso de Fundamentos de Programación">
+                <img class="img--grid" src="./img/disenoweb.jpg" alt="Curso de Fundamentos de Programación">
                 </a>
             </div>
         </div>
