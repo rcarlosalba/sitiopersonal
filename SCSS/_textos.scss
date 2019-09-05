@@ -43,8 +43,13 @@
 .list--item__content{
     margin: 4px 0;
 }
-.text--description{
+.text--conoceme{
     width: 70%;
-    line-height: 18px;
-    margin: 4px ;
+    line-height: 24px;
+    p{
+        margin-bottom: 8px;
+    }
+}
+.text--description{
+    margin: 8px 0;
 }
