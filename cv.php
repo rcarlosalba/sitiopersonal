@@ -4,36 +4,37 @@
     <div class="grid main--column top--container">
         <div class="dos--columnas">
             <div class="uno">
-                <h2 class="title titleH2">Experiencia:</h2>
-                <h3 class="title titleH3">Tecnikids Latinoamerica.</h3>
+                <h2 class="title titleH2">Experiencia</h2>
+                <h3 class="title titleH3">Tecnikids Latinoamerica</h3>
                 <em>Asesor IT</em>
                 <ul class="list--style">
+                    <li>Asesor IT para Centro América (Guatemala, El Salvador, Honduras y Costa Rica)</li>
+                    <li>Organizador del Campeonato Latinoamericano de Robótica</li>
+                    <li>Supervisor de implementación curricular</li>
                     <li>Catedrático de nivel Medio.</li>
-                    <li>Asesor de TIC.</li>
-                    <li>Organizador del Campeonato Latinoamericano de Robótica.</li>
                 </ul>
                 <br>
-                <h3 class="title titleH3">Reforma Branding.</h3>
+                <h3 class="title titleH3">Reforma Branding</h3>
                 <em>Maquetador Web</em>
                 <ul class="list--style">
-                    <li>Maquetador de sitios web.</li>
+                    <li>Maquetador de sitios web</li>
                 </ul>
                 <br>
-                <h3 class="title titleH3">Instituto Evangélico América Latina.</h3>
+                <h3 class="title titleH3">Instituto Evangélico América Latina</h3>
                 <em>Coordinador IT</em>
                 <ul class="list--style">
                     <li>Catedrático de nivel Medio.</li>
                     <li>Coordinador del departamento IT.</li>
-                    <li>Diseño e implamentación de servicios web.</li>
-                    <li>Diseño e implementación de Intranet</li>
+                    <li>Diseño e implementación de Intranet y web</li>
                 </ul>
             </div>
             <div class="dos">
-                <h2 class="title titleH2">Habilidades:</h2>
+                <h2 class="title titleH2">Habilidades</h2>
                 <ul class="list--style">
-                    <li>Liderago.</li>
-                    <li>Trabajo en equipo.</li>
-                    <li>Planificación de eventos.</li>
+                    <li>Pensamiento lógico'matemático</li>
+                    <li>Liderago</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Logística y planificación</li>
                     <li>Autodidacta</li>
                 </ul>
                 <br>
@@ -48,14 +49,14 @@
                     <li>Diseño 3d (Sketchup)</li>
                 </ul>
                 <br>
-                <h2 class="title titleH2">Lenguajes:</h2>
+                <h2 class="title titleH2">Lenguajes</h2>
                 <ul class="list--style">
                     <li>Español: Nativo - comprensión oral y escrita 100%</li>
                     <li>Inglés: Intermedio - comprensión oral 50%, escrita 75%</li>
                 </ul>
             </div>
         </div>
-        <h2 class="title titleH2">Educación:</h2>
+        <h2 class="title titleH2">Educación</h2>
         <div class="tres--columnas">
             <div class="uno">
                 <h2 class="title titleH3">Platzi</h2>

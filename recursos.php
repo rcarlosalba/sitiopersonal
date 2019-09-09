@@ -5,7 +5,7 @@
         <div class="tres--columnas">
             <div class="uno">
                 <a class="text--decoration" href="#">
-                <h2 class="title titleH2">Handbook HTML</h2>
+                <h2 class="title titleH2">Manual de HTML</h2>
                 <p class="text--description">Original de Flavio Copes y traducido por Carlos Alba.</p>
                 <img class="img--grid" src="./img/finanzas.jpg" alt="Handbook HTML">
                 </a>
@@ -18,7 +18,7 @@
                 </a>
             </div>
             <div class="tres">
-                <a class="text--decoration" href="#">
+                <a class="text--decoration" href="https://platzi.com/blog/automatizar-y-optimizar-trabajo-nodejs-grunt/">
                 <h2 class="title titleH2">Grunt para automatizar</h2>
                 <p class="text--description">Grunt como herramienta para automatizar el flujo de trabajo Front End - Publicado en Platzi.</p>
                 <img  class="img--grid"src="./img/grunt.jpg" alt="Tutorial Grunt">
