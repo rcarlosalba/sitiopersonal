@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Alba | Front End Developer Junior</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="flex justify-between h-16 w-full bg-white fixed z-20">
+    <div class="head-container">
+      <div id="menu" class="cursor-pointer mx-4 my-6" onclick="mainMenu()">
+        <div id="bar1" class="bar bg-third-blue block rounded-md"></div>
+        <div id="bar2" class="bar bg-third-blue block rounded-md"></div>
+        <div id="bar3" class="bar bg-third-blue block rounded-md"></div>
+      </div>
+      <!-- menu -->
+      <nav>
+        <ul id="nav" class="nav">
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="#conoceme"><i class="far fa-address-card"></i> Conóceme</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="#recursos"><i class="fas fa-chalkboard-teacher"></i> Cursos / Recursos</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="#portafolio"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="/blog/index.html"><i class="far fa-edit"></i> Blog</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="#trabajemos"><i class="far fa-handshake"></i> Trabajemos Juntos</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="#"><i class="fas fa-language"></i> English</a></li>
+        </ul>
+      </nav>
+      <!-- menu -->
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <!-- logo -->
+    <a href="#" class="my-2 mx-4">
+      <figure>
+        <img class="h-12" src="./assets/imagotipoCarlos.png" srcset="./assets/imagotipoCarlos.png, ./assets/imagotipoCarlos@2x.png 2x, ./assets/imagotipoCarlos@3x.png 3x" alt="Carlos Alba | Front End Developer Junior">
+      </figure>
+    </a>
+    <!-- logo -->
+  </header>
+  <!-- home -->
+  <div class="h-16"></div>
+  <section class="bg-fixed parallax text-white">
+    <div class="container px-4 pt-24 animated bounceInLeft">
+      <h1 class="mt-8 font-bold text-4xl md:text-6xl">Front-end Developer</h1>
+      <h2 class="text-3xl md:text-4xl">Diseñador y mentor</h2>
+      <h3 class="text-xl md:text-2xl">Creo y enseño código y me gusta diseñar interfaces de usuario.</h3>
+    </div>
+  </section>
+  <!-- home -->
+  <!-- Conóceme -->
+  <div class="h-16" id="conoceme"></div>
+  <div class="section mx-4">
+    <div class="text-container">
+      <img class="float-left mr-2 mb-1 rounded-lg w-4/12 md:w-3/12" src="./assets/profile.jpg" alt="Carlos Alba | Foto de perfil."><div class="text-profile text-third-blue">¡Hola! 👋 Soy Carlos Alba.<br>Freelancer, desarrollador, diseñador, educador y mentor. Me gusta estar siempre aprendiendo sobre: Tecnología, desarrollo, emprendimiento, diseño, educación y cocina. <br> Soy padre, esposo, lector empedernido, autodidacta y vegetariano.
+      </div>
+    </div>
+    <div class="clear-both"></div>
+
+  </div>
+  <!-- Conóceme -->
+    <!-- Trabajemos Juntos -->
+    <div class="h-16" id="trabajemos"></div>
+    <div class="main-container">
+      <div class="text-2xl text-third-blue text-center md:text-left">Trabajemos juntos</div>
+      <ul class="flex justify-center">
+        <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://github.com/rcarlosalba"><i class="fab fa-github"></i></a></li>
+        <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://twitter.com/rcarlosalba"><i class="fab fa-twitter"></i></a></li>
+        <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://www.instagram.com/rcarlosalba/"><i class="fab fa-instagram"></i></a></li>
+        <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://www.linkedin.com/in/rcarlosalba/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="mailto:hola@carlosalba.net?subject=Mail from Our Site"><i class="far fa-envelope"></i></a></li>
+      </ul>
+    </div>
+    <!-- Trabajemos Juntos -->
+  <!-- Portafolio -->
+  <div class="h-8" id="portafolio"></div>
+  <div class="main-container">
+    <div class="text-2xl text-third-blue text-center md:text-left ml-4">Portafolio</div>
+    <div class="w-10/12 mx-auto h-auto md:flex">
+      <!-- framework FrontEnd -->
+      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/webdesign.jpg" alt="" srcset="">
+          <div class="p-6">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Frameworks Front-end</h4>
+            <p class="text-gray-700 font-semibold font-md mb-4">Bootstrap - Foundation - Tailwind - Materialize & Bulma</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- Diseño -->
+      <!-- VueJS -->
+    </div>
+  </div>
+  <!-- Portafolio -->
+  <!-- Cursos / Recursos -->
+  <div class="h-16" id="recursos"></div>
+  <div class="cursos">
+    <div class="text-2xl text-third-blue text-center ml-4 md:text-left">Cursos y Recursos</div>
+    <div class="w-10/12 mx-auto h-auto md:flex">
+      <!-- Diseño Web -->
+
+      <!-- Fundametos de Programación -->
+
+      <!-- Diseño Gráfico y UI -->
+
+    </div>
+    <div class="h-16"></div>
+  </div>
+  <!-- Cursos / Recursos -->
+  <!-- enlaces -->
+  <script src="./js/code.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- carousel -->
+
+  <!-- carousel -->
+  <!-- enlaces -->
+</body>
+</html>
+
+    

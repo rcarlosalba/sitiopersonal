@@ -1,0 +1,25 @@
+{
+  "name": "sitiopersonal",
+  "version": "1.0.0",
+  "description": "Hola!",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "dev": "postcss css/tailwind.css -o public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcarlosalba/sitiopersonal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcarlosalba/sitiopersonal/issues"
+  },
+  "homepage": "https://github.com/rcarlosalba/sitiopersonal#readme"
+}
