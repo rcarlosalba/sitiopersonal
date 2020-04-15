@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header class="flex justify-between h-16 w-full bg-white fixed z-20">
+  <header class="flex justify-between h-16 w-full bg-white fixed z-20 sm:px-4 md:px-6 lg:px-8">
     <div class="head-container">
       <div id="menu" class="cursor-pointer mx-4 my-6" onclick="mainMenu()">
         <div id="bar1" class="bar bg-third-blue block rounded-md"></div>
@@ -42,47 +42,44 @@
   <section class="bg-fixed parallax text-white lg:h-full">
     <div class="container px-4 py-24 animated bounceInLeft">
       <h1 class="mt-8 font-bold text-4xl md:text-6xl">Front-end Developer</h1>
-      <h2 class="text-3xl md:text-4xl">Diseñador UI/UX</h2>
-      <h3 class="mb-8 text-xl md:text-2xl">Creo y diseño código además UI y UX.</h3>
+      <h2 class="mb-16 text-3xl md:text-4xl">Diseñador UI/UX</h2>
     </div>
   </section>
   <!-- home -->
   <!-- Conóceme -->
   <div class="h-16" id="conoceme"></div>
   <div class="section mx-4">
-    <div class="text-2xl text-third-blue text-center md:text-left">Acerca de mi:</div>
-    <div class="about-container w-full h-auto">
-      <div class="w-2/5 mr-3 float-left">
+    <div class="text-2xl text-third-blue text-center sm:px-4 md:px-6 md:text-left mb-4 lg:px-8">Acerca de mí</div>
+    <div class="about-container w-full h-auto sm:flex px-4 md:px-6 lg:px-8">
+      <div class="float-right w-1/4 sm:float-none sm:inline-flex sm:w-3/12 ">
         <figure>
-          <img class="rounded-sm" src="./assets/profile.jpg" alt="Carlos Alba |Front End Developer | Diseñador UI/UX">
+          <img class="rounded-md" src="./assets/profile.jpg" alt="Carlos Alba |Front End Developer | Diseñador UI/UX">
         </figure>
-      </div>  
-      <div class="text-third-blue md:pt-8">
+      </div>
+      <div class="text-third-blue sm:inline-flex sm:w-8/12 sm:px-8">
           <ul>
-            <li>Soy <span class="font-bold">Guatemalateco</span> y expatriado.</li>
-            <li>Aprendo <span class="font-bold">diseño/desarrollo Web y UI/UX</span> en <a href="https://platzi.com/@CarlosAlba/">Platzi</a>.</li>
-            <li>Me <span class="font-bold">encanta</span> dar clases. </li>
-            <li>Estudie Profesorado en Informática.</li>
-            <li>Uso <span class="font-bold">Linux</span> por amor.</li>
-            <li>Uso <span class="line-through">felizmente</span> Windows (todo por culpa de <span class="font-bold">Adobe</span>).</li>
-            <li>Soy <span class="font-bold">debil</span> ante los libros.</li>
-            <li><span class="font-bold">Amo</span> el café.</li>
+            <li>Soy <span class="font-bold">guatemalteco</span> y vivo en Jordania.</li>
+            <li><span class="font-bold">Diseño y desarrollo Web y UI/UX</span>.</li>
+            <li><span class="font-bold">Profesor</span> de informática y asesor de implementación tecnologíca en centros educativos.</li>
+            <li><span class="font-bold">Linux</span> sobre <span class="line-through">Windows</span>. <span class="line-through">Windows</span> por <span class="font-bold">Adobe</span>.</li>
             <li><span class="font-bold">Lifelong Learner</span>.</li>
-            <li><span class="font-bold"><a href="">Escribo</a></span> sobre Desarrollo Web, Educación y algunas ideas personales.</li>
-            <li><span class="font-bold">Disfruto</span> un buen chocolate.</li>
-            <li>Vegetariano por <span class="font-bold">convicción</span>. </li>
-            <li>En <span class="font-bold"><a href="https://twitter.com/rcarlosalba">Twitter</a></span> procuro ser buena persona.</li>
-            <li>Quiero participar en una <span class="font-bold"><a href="https://www.youtube.com/watch?v=qlPRDVqYO74">coreografía</a></span>. </li>
+            <li><span class="font-bold"><a href="">Escribo</a></span> sobre desarrollo web, educación y temas de interes personal.</li>
+            <li><span class="font-bold">Back-packing</span> traveler & <span class="font-bold">couchsurfer</span>.</li>
+            <li>Maestro por <span class="font-bold">vocación</span>.</li>
+            <li>Vegetariano por <span class="font-bold">convicción</span>.</li>
+            <li>Lector <span class="font-bold">empedernido</span>.</li>
+            <li><span class="font-bold">Disfruto</span> el café y el chocolate.</li>
+            <li>Quiero participar en un <span class="font-bold"><a href="https://www.youtube.com/watch?v=qlPRDVqYO74">flash mob</a></span>.</li>
           </ul>
       </div>
-      <div class="clear-both"></div>
+    <div class="clear-both"></div>  
     </div>
   </div>
   <!-- Conóceme -->
   <!-- Trabajemos Juntos -->
   <div class="h-16" id="trabajemos"></div>
   <div class="main-container mx-4">
-    <div class="text-2xl text-third-blue text-center md:text-left">Trabajemos juntos</div>
+    <div class="text-2xl text-third-blue text-center sm:px-4 md:px-6 md:text-left mb-4 lg:px-8">Trabajemos juntos</div>
     <ul class="flex justify-center">
       <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://github.com/rcarlosalba"><i class="fab fa-github md:text-2xl"></i></a></li>
       <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="mailto:hola@carlosalba.net?subject=Mail from Our Site"><i class="far fa-envelope md:text-2xl"></i></a></li>
@@ -93,29 +90,29 @@
   </div>
   <!-- Trabajemos Juntos -->
   <!-- Portafolio -->
-  <div class="h-8" id="portafolio"></div>
+  <div class="h-16" id="portafolio"></div>
   <div class="main-container mx-4">
-    <div class="text-2xl text-third-blue text-center md:text-left">Portafolio</div>
-    <div class="w-10/12 mx-auto h-auto md:flex">
+    <div class="text-2xl text-third-blue text-center sm:px-4 md:px-6 md:text-left mb-4 lg:px-8">Portafolio</div>
+    <div class="w-10/12 mx-auto h-auto text-center">
       <!-- Diseño -->
-      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
         <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
           <img class="h-40 w-full object-cover" src="./assets/ui.jpg" alt="Diseño de Interfaz Gráfica UI" srcset="">
           <div class="p-6">
             <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">UI (User Interface)</h4>
-            <p class="text-gray-600 font-semibold font-md mb-4">Diseño de Interfaz de Usuario en Adobe XD. Algunas ideas en Photoshop y/o Illustrator.</p>
+            <p class="text-gray-600 font-semibold font-md mb-4">Diseño de Interfaz de Usuario en Adobe XD Algunas ideas en Photoshop y/o Illustrator</p>
             <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Ver</a>
           </div>
         </div>
       </div>
       <!-- Diseño -->
       <!-- Código Web -->
-      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
         <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
           <img class="h-40 w-full object-cover" src="./assets/code.jpg" alt="Diseño y Desarrollo Web" srcset="">
           <div class="p-6">
             <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Diseño Web</h4>
-            <p class="text-gray-600 font-semibold font-md mb-4">HTML, CSS y JS en acción. Proyectos con Tailwind CSS, Bootstrap y Materialize CSS</p>
+            <p class="text-gray-600 font-semibold font-md mb-4">HTML, CSS y JS en acción - Proyectos con Tailwind CSS, Bootstrap y Materialize CSS</p>
             <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Ver</a>
           </div>
         </div>
@@ -127,51 +124,51 @@
   <!-- Cursos / Recursos -->
   <div class="h-16" id="recursos"></div>
   <div class="cursos mx-4">
-    <div class="text-2xl text-third-blue text-center md:text-left">Cursos y Recursos</div>
-    <div class="w-10/12 mx-auto h-auto md:flex">
+    <div class="text-2xl text-third-blue text-center sm:px-4 md:px-6 md:text-left mb-4 lg:px-8">Cursos y Recursos</div>
+    <div class="w-12/12 mx-auto h-auto text-center">
       <!-- Adobe XD -->
-      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
         <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
           <img class="h-40 w-full object-cover" src="./assets/webdesign.jpg" alt="Recursos de Adobe XD" srcset="">
           <div class="p-6">
             <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Adobe XD</h4>
-            <p class="text-gray-600 font-semibold font-md mb-4">Videos y enlaces que te pueden servir para aprender UI con Adobe XD.</p>
+            <p class="text-gray-600 font-semibold font-md mb-4">Videos y enlaces para aprender UI con Adobe XD</p>
             <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Próximamente</a>
           </div>
         </div>
       </div>
       <!-- Adobe XD -->
       <!-- Git y GitHub -->
-      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
         <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
           <img class="h-40 w-full object-cover" src="./assets/git.jpg" alt="Curso de Git y GitHub" srcset="">
           <div class="p-6">
             <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Git Y GitHub</h4>
-            <p class="text-gray-600 font-semibold font-md mb-4">Domina el sistema de control de versiones más popular. </p>
+            <p class="text-gray-600 font-semibold font-md mb-4">Domina el sistema de control de versiones más popular</p>
             <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Próximamente</a>
           </div>
         </div>
       </div>
       <!-- Git y GitHub -->
       <!-- Fundamentos de Programación -->
-      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
         <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
           <img class="h-40 w-full object-cover" src="./assets/code.jpg" alt="Curso de Programación básica" srcset="">
           <div class="p-6">
             <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Programación básica</h4>
-            <p class="text-gray-600 font-semibold font-md mb-4">Domina las bases de programación con Javascript, aprende desde cero.</p>
+            <p class="text-gray-600 font-semibold font-md mb-4">Domina las bases de programación con Javascript, aprende desde cero</p>
             <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Próximamente</a>
           </div>
         </div>
       </div>
       <!-- Fundamentos de Programación -->
       <!-- Recursos -->
-      <div class="w-full my-2 h-auto md:w-2/6 md:mx-2">
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
         <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
           <img class="h-40 w-full object-cover" src="./assets/vue.jpg" alt="" srcset="">
           <div class="p-6">
             <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Recursos</h4>
-            <p class="text-gray-600 font-semibold font-md mb-4">Tutoriales, traducciones, cursos gratuitos, mucho para aprender.</p>
+            <p class="text-gray-600 font-semibold font-md mb-4">Tutoriales, traducciones, cursos gratuitos y mucho para aprender</p>
             <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" href="">Próximamente</a>
           </div>
         </div>
