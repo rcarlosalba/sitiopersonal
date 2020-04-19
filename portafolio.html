@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Alba | Portafolio | Front End Developer Junior | Diseñador UI/UX</title>
+</head>
+<body>
+  <header class="flex justify-between h-16 w-full bg-white fixed z-20 sm:px-4 md:px-6 lg:px-8">
+    <div class="head-container">
+      <div id="menu" class="cursor-pointer mx-4 my-6" onclick="mainMenu()">
+        <div id="bar1" class="bar bg-third-blue block rounded-md"></div>
+        <div id="bar2" class="bar bg-third-blue block rounded-md"></div>
+        <div id="bar3" class="bar bg-third-blue block rounded-md"></div>
+      </div>
+      <!-- menu -->
+      <nav class="fixed">
+        <ul id="nav" class="nav">
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="./index.html#conoceme"><i class="far fa-address-card"></i> Conóceme</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="./index.html#trabajemos"><i class="far fa-handshake"></i> Trabajemos Juntos</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="./index.html#portafolio"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="./index.html#recursos"><i class="fas fa-chalkboard-teacher"></i> Cursos / Recursos</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="https://blog.carlosalba.net/"><i class="far fa-edit"></i> Blog</a></li>
+          <li class="mx-2 my-2 pb-1 border-b-2"><a class="hover:font-semibold text-first-grey" href="#"><i class="fas fa-language"></i> English</a></li>
+        </ul>
+      </nav>
+      <!-- menu -->
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <!-- logo -->
+    <a href="#" class="my-2 mx-4">
+      <figure>
+        <img class="h-12" src="./assets/logo.png" srcset="./assets/logo.png, ./assets/logo@2x.png 2x, ./assets/logo@3x.png 3x" alt="Carlos Alba | Front End Developer Junior">
+      </figure>
+    </a>
+    <!-- logo -->
+  </header>
+  <!-- home -->
+  <div class="h-16" id="hero"></div>
+  <section class="bg-fixed parallax img-parallax-2 text-white lg:h-full">
+    <div class="container px-4 py-24 animated bounceInLeft">
+      <h1 class="mt-8 font-bold text-4xl md:text-6xl">Front-end Developer</h1>
+      <h2 class="mb-16 text-3xl md:text-4xl">Diseñador UI/UX</h2>
+    </div>
+  </section>
+  <!-- home -->
+  <!-- Diseño UI/UX -->
+  <div class="h-16" id="uxui"></div>
+  <div class="cursos mx-4">
+    <div class="text-2xl text-third-blue text-center sm:px-4 md:px-6 md:text-left mb-4 lg:px-8">Diseño UI/UX</div>
+    <div class="w-12/12 mx-auto h-auto text-center">
+      <!-- Propuesta para profesor Universitario -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/profesorU.png" alt="Propuesta para profesor Universitario" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Propuesta profesor Universitario</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Prototipo de un sitio web de servicios de orientación acádemica</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/3ed71ad7-b533-43c3-4463-9d3331ad2299-48e6/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- Propuesta para profesor Universitario -->
+      <!-- lasfotias.com -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/lasfotias.png" alt="lasfotias.com" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Propuesta para lasfotias.com</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Una pequeña galeria que muestra el trabajo del equipo de lasfotias.com</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/8d2aa92e-0700-4a75-6d2d-6271969135c0-fb1b/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- lasfotias.com -->
+      <!-- landingpage -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/DIFU.png" alt="landingpage" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Diseño de landingpage</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">El diseño crea el futuro. Landingpage en Adobe XD</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/3ddaae20-6fee-44b4-7da5-40551e2fdb55-4beb/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- landingpage -->
+      <!-- la belladona -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/labelladona.png" alt="la belladona" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Diseño la belladona</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Pequeño landingpage de pedido de donas</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/726b5916-e00c-44ae-66dd-285f849dc8f6-045a/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- la belladona -->
+    </div>
+  </div>
+  <!-- Diseño UI/UX -->
+  <!-- Diseño Web -->
+  <div class="h-16" id="webdesign"></div>
+  <div class="cursos mx-4">
+    <div class="text-2xl text-third-blue text-center sm:px-4 md:px-6 md:text-left mb-4 lg:px-8">Diseño Web</div>
+    <div class="w-12/12 mx-auto h-auto text-center">
+      <!-- Propuesta para profesor Universitario -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/profesorU.png" alt="Propuesta para profesor Universitario" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Profesor Universitario</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Maquetación del sitio web de servicios de orientación acádemica en bootstrap</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/3ed71ad7-b533-43c3-4463-9d3331ad2299-48e6/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- Propuesta para profesor Universitario -->
+      <!-- lasfotias.com -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/lasfotias.png" alt="lasfotias.com" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">lasfotias.com</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Maquetación del sitio web en bootstrap para lasfotias.com</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/8d2aa92e-0700-4a75-6d2d-6271969135c0-fb1b/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- lasfotias.com -->
+      <!-- landingpage -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/gabrielaestrada.png" alt="landingpage Gabriela Estrada" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Diseño para gabrielaestrada.com</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Landingpage para Gabriela Estrada en bootstrap</p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/3ddaae20-6fee-44b4-7da5-40551e2fdb55-4beb/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- landingpage -->
+      <!-- la belladona -->
+      <div class="w-full my-2 h-auto sm:w-5/12 inline-flex mx-4 md:w-5/12 inline-flex mx-2">
+        <div class="card bg-white rounded-md overflow-hidden shadow-md mb-4">
+          <img class="h-40 w-full object-cover" src="./assets/portafolio/carlosalba.png" alt="Webpage Carlos Alba" srcset="">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-lg leading-tight truncate text-third-blue">Mi sitio web.</h4>
+            <p class="text-gray-600 font-semibold font-md mb-4">Desarrollado en Tailwind CSS. </p>
+            <a class="rounded-md px-6 py-2 bg-third-blue hover:bg-second-blue text-white hover:font-semibold" target="_blank" href="https://xd.adobe.com/view/726b5916-e00c-44ae-66dd-285f849dc8f6-045a/">Ver</a>
+          </div>
+        </div>
+      </div>
+      <!-- la belladona -->
+    </div>
+  </div>
+  <!-- Diseño Web -->
+  <!-- footer -->
+  <footer class="w-full h-16">
+    <ul class="flex justify-center">
+      <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://github.com/rcarlosalba"><i class="fab fa-github md:text-2xl"></i></a></li>
+      <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="mailto:hola@carlosalba.net?subject=Mail from Our Site"><i class="far fa-envelope md:text-2xl"></i></a></li>
+      <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://www.linkedin.com/in/rcarlosalba/"><i class="fab fa-linkedin-in md:text-2xl"></i></a></li>
+      <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://www.instagram.com/rcarlosalba/"><i class="fab fa-instagram md:text-2xl"></i></a></li>
+      <li class="m-4 text-third-blue"><a class="hover:text-teal-600" href="https://twitter.com/rcarlosalba"><i class="fab fa-twitter md:text-2xl"></i></a></li>
+    </ul>
+  </footer>
+  <!-- footer -->
+  <!-- enlaces -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    function mainMenu(){
+      document.getElementById("menu").classList.toggle("change");
+      document.getElementById("nav").classList.toggle("change");
+      document.getElementById("menu-bg").classList.toggle("change-bg");
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- enlaces -->
+</body>
+</html>
+
+    
